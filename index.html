@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no"
+    />
+    <title>Portfólio - Bruno Gomes</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div id="game-container">
+      <!-- balão de fala -->
+      <div id="dialog-box"></div>
+
+      <audio id="musicaFundo" loop>
+        <source src="img/Tiles/song.mp3" type="audio/mpeg" />
+        Seu navegador não suporta o elemento de áudio.
+      </audio>
+
+      <!-- Joystick virtual para mobile -->
+      <div id="joystick">
+        <div id="stick"></div>
+      </div>
+
+      <!-- MAPA MOBILE -->
+      <div id="mapa">
+        <!-- rio -->
+        <div
+          class="obstacle"
+          style="top: 240px; left: 400px; width: 260px; height: 26px"
+        ></div>
+        <div
+          class="obstacle"
+          style="top: 190px; left: 450px; width: 200px; height: 40px"
+        ></div>
+        <div
+          class="obstacle"
+          style="top: 100px; left: 500px; width: 110px; height: 90px"
+        ></div>
+        <div
+          class="obstacle"
+          style="top: 450px; left: 390px; width: 270px; height: 150px"
+        ></div>
+
+        <!-- ponte -->
+        <div
+          class="obstacle"
+          style="top: 270px; left: 330px; width: 400px; height: 16px"
+        ></div>
+        <div
+          class="obstacle"
+          style="top: 425px; left: 330px; width: 400px; height: 16px"
+        ></div>
+
+        <!-- parede -->
+        <div
+          class="obstacle"
+          style="top: 0px; left: 0px; width: 900px; height: 80px"
+        ></div>
+        <div
+          class="obstacle"
+          style="top: 85px; left: 780px; width: 240px; height: 50px"
+        ></div>
+
+        <!-- arvore direita -->
+        <div
+          class="obstacle"
+          style="top: 80px; left: 730px; width: 20px; height: 70px"
+        ></div>
+        <div
+          class="obstacle"
+          style="top: 80px; left: 690px; width: 20px; height: 30px"
+        ></div>
+
+        <!-- arvore esquerda -->
+        <div
+          class="obstacle"
+          style="top: 80px; left: 20px; width: 80px; height: 65px"
+        ></div>
+
+        <!-- pilha de madeira -->
+        <div
+          class="obstacle"
+          style="top: 180px; left: 110px; width: 20px; height: 40px"
+        ></div>
+
+        <!-- estufa -->
+        <div
+          class="obstacle"
+          style="top: 100px; left: 160px; width: 120px; height: 120px"
+        ></div>
+
+        <!-- fenos -->
+        <div
+          class="obstacle"
+          style="top: 150px; left: 315px; width: 25px; height: 50px"
+        ></div>
+        <div
+          class="obstacle"
+          style="top: 170px; left: 365px; width: 10px; height: 20px"
+        ></div>
+
+        <!-- cerca -->
+        <div
+          class="obstacle"
+          style="top: 420px; left: 100px; width: 125px; height: 20px"
+        ></div>
+
+        <!-- pedras -->
+        <div
+          class="obstacle"
+          style="top: 545px; left: 200px; width: 35px; height: 20px"
+        ></div>
+        <div
+          class="obstacle"
+          style="top: 465px; left: 880px; width: 35px; height: 20px"
+        ></div>
+
+        <!-- tronco -->
+        <div
+          class="obstacle"
+          style="top: 220px; left: 970px; width: 25px; height: 5px"
+        ></div>
+
+        <!-- gramas -->
+        <div
+          class="obstacle"
+          style="top: 210px; left: 710px; width: 30px; height: 20px"
+        ></div>
+        <div
+          class="obstacle"
+          style="top: 500px; left: 780px; width: 110px; height: 100px"
+        ></div>
+
+        <!-- Objetos -->
+        <div
+          class="obstacle"
+          style="top: 362px; left: 985px; width: 20px; height: 5px"
+        ></div>
+        <div
+          class="obstacle"
+          style="top: 532px; left: 195px; width: 20px; height: 5px"
+        ></div>
+      </div>
+    </div>
+
+    <script src="game.js"></script>
+  </body>
+</html>
