@@ -90,7 +90,7 @@ function createAnimations() {
   });
 
   // Animação dos sinais
-  const signals = document.querySelectorAll('.signal');
+  const signal = document.querySelectorAll('.signalTop, .signalDown');
   signals.forEach((sinal) => {
     let direction = 1;
     const amplitude = 5;
