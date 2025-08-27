@@ -91,7 +91,7 @@ function createAnimations() {
 
   // Animação dos sinais
   const signal = document.querySelectorAll('.signalTop, .signalDown');
-  signals.forEach((sinal) => {
+  signal.forEach((sinal) => {
     let direction = 1;
     const amplitude = 5;
     const startTop = parseFloat(sinal.style.top);
