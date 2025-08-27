@@ -1,5 +1,5 @@
 body {
-  font-family: 'Press Start 2P', cursive;
+  font-family: "Press Start 2P", cursive;
   background: black;
   color: rgb(0, 0, 0);
   margin: 0;
@@ -16,7 +16,7 @@ body {
   margin: auto;
   border: solid 1px #000;
   position: relative;
-  background-image: url('img/map.png');
+  background-image: url("img/map.png");
   background-size: cover;
   background-position: center;
   overflow: hidden;
@@ -32,7 +32,7 @@ body {
   width: 32px;
   height: 32px;
   position: absolute;
-  background-image: url('img/Player/Player.png');
+  background-image: url("img/Player/Player.png");
   background-position: 0 0;
   transform-origin: center center;
   z-index: 10;
@@ -40,28 +40,28 @@ body {
 
 /* Estilos para elementos dinâmicos */
 .agua {
-  background-image: url('img/Tiles/paisagens/agua.png');
+  background-image: url("img/Tiles/paisagens/agua.png");
   width: 80px;
   height: 64px;
   position: absolute;
   z-index: 5;
 }
 .pato {
-  background-image: url('img/Tiles/paisagens/pato.png');
+  background-image: url("img/Tiles/paisagens/pato.png");
   width: 64px;
   height: 64px;
   position: absolute;
   z-index: 5;
 }
 .ganso {
-  background-image: url('img/Tiles/paisagens/ganso.png');
+  background-image: url("img/Tiles/paisagens/ganso.png");
   width: 57px;
   height: 57px;
   position: absolute;
   z-index: 5;
 }
 .rato {
-  background-image: url('img/Tiles/paisagens/rato.png');
+  background-image: url("img/Tiles/paisagens/rato.png");
   width: 90px;
   height: 48px;
   position: absolute;
@@ -77,16 +77,25 @@ body {
 .chest {
   width: 32px;
   height: 32px;
-  background-image: url('img/Tiles/Chest.png');
+  background-image: url("img/Tiles/Chest.png");
   background-size: cover;
   z-index: 5;
   position: absolute;
 }
 
-.signal {
+.signalTop {
   width: 32px;
   height: 32px;
-  background-image: url('img/Tiles/Signal.png');
+  background-image: url("img/Tiles/Signal.png");
+  background-size: cover;
+  z-index: 8;
+  position: absolute;
+}
+
+.signalDown {
+  width: 32px;
+  height: 32px;
+  background-image: url("img/Tiles/Signal.png");
   background-size: cover;
   z-index: 15;
   position: absolute;
