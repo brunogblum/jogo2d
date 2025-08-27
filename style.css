@@ -83,7 +83,7 @@ body {
   position: absolute;
 }
 
-.signalTop {
+.signalDown {
   width: 32px;
   height: 32px;
   background-image: url("img/Tiles/Signal.png");
@@ -92,7 +92,7 @@ body {
   position: absolute;
 }
 
-.signalDown {
+.signalTop {
   width: 32px;
   height: 32px;
   background-image: url("img/Tiles/Signal.png");
